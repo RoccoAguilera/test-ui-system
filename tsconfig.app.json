@@ -10,7 +10,7 @@
     /* Alias */
     "paths": {
       "@assets/*": ["./src/assets/*"],
-      "@ui-system/*": ["src/ui-system/*"],
+      "@ui-system/*": ["./src/ui-system/*"],
     },
 
     /* Bundler mode */
