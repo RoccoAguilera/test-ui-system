@@ -6,9 +6,9 @@ import UI_Concept_1 from "./InputSample/UI-Concept-1"
 import UI_Concept_6 from "./InputSample/UI-Concept-2"
 import UI_Concept_7 from "./InputSample/UI-Concept-3"
 
-function Main() {
+function Main(props: { font: string }) {
   return (
-    <main className="grid grid-cols-10 gap-2 items-start max-w-screen-xl mx-auto p-5 max-sm:px-2 space-y-5">
+    <main className={`${props.font} grid grid-cols-10 gap-2 items-start max-w-screen-xl mx-auto mt-2 space-y-5`}>
 
       <div className="col-span-3 flex flex-col gap-2 max-[900px]:hidden">
         <UI_Concept_1 id="concept_1" />

@@ -1,4 +1,4 @@
-@theme {
+@theme {  
   /* Color Emphasis - focus on element global */
   --color-emphasis: var(--color-pur-700);
   --color-emphasis-error: var(--color-tom-600);
@@ -82,7 +82,7 @@ input[type=number] {
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   /* desactiva el scroll en navegadores webkit */
-  display: none;
+  /* display: none; */
   -webkit-appearance: none;
 }
 
